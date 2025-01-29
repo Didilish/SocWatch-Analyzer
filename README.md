@@ -14,17 +14,6 @@ This repository includes several Python scripts and configuration files that ass
 - **Device State Analysis**: Track device states (like D0, D1, D2, D3) to monitor and optimize device power usage.
 - **Detailed Data Extraction**: Extract and format system performance data, including CPU cores, monitor states, and more.
 
-## Files Included
-
-- `checking_attributes (1).py` - Python script that loads and processes power state data from SocWatch `.csv` files.
-- `checking_attributes2.py` - An updated version of the first script with enhanced handling for specific power state data.
-- `def tcm_socwatch.txt` - A file containing definitions for the **TCM SocWatch** process, which organizes and analyzes the SocWatch data.
-- `extracted-_attributes.txt` - Processed output from SocWatch analysis, containing various attributes for devices and power states.
-- `socwatch_attributes1.txt` and `socwatch_attributes2.txt` - Processed SocWatch attribute data files.
-- `socwatchanalyser (1).docx` - Documentation for the **SocWatchAnalyzer** class.
-- `socwatchanalyser_ output.docx` - Output of the analysis after processing a SocWatch trace.
-- `updated socwatchanlyser.docx` - Updated documentation for **SocWatchAnalyzer**.
-
 ## Installation
 
 To run this analysis tool, clone this repository and install the required dependencies:
@@ -64,6 +53,4 @@ C-State Residency Percentages:
 
 Please note that this project is proprietary. The source code and associated data files are not available. 
 
-## License
 
-This project is proprietary, and all rights are reserved. You are not allowed to reproduce, distribute, or disclose the source code without explicit permission. All code and associated data files are intended for research and internal use only.
